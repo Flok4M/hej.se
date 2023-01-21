@@ -4,16 +4,36 @@
     <title>melvins bajsbra website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script type="text/javascript">
+
+    function onHoverPappa(){
+        //alert("DÖ!");
+        console.log();("asdfasdf");
+       // var dieBox = document.getElementById("dieBox").style.visibility = "visible";
+        
+    }
+    function closeDieBox(){
+        var dieBox = document.getElementById("dieBox").style.visibility = "hidden";
+    }
+</script>
+
 <body>
     <div class="main">
         <div class="navbar">
             <div class="icon">
                 <h2 class="logo">Melvin är så jävla bra</h2>
                 <br />
-                <h5>...och Pappa är ännu bättre! Hoho.. Ev1l h@ck3r!</h5>
+                <h1 onmouseover="">...if u deny u will DÖ!</h1>
             </div>
         </div>
-    </div>
+        <div style="width: 500px; height: 500px; background-color: red;visibility:hidden;" id="dieBox">
+            <span style="font-size: xx-large;text-align: center;">DÖ</span>
+            <br />
+            <button name="closeButton" onclick="closeDieBox()" style="height: 100px; width: 100px;">Stäng</button>
+        </div>
     
+    </div>
+
+
 </body>
 </html>
